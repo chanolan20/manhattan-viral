@@ -4,6 +4,7 @@
  */
 export const config = { runtime: "edge" };
 
+/* global process */
 const FRANK_URL = process.env.FRANK_BACKEND_URL || "http://127.0.0.1:8001";
 
 export default async function handler(req) {
