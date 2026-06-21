@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Manhattan Viral — Drops</title>
+    <link>https://www.manhattanviral.com/</link>
+    <description>Latest drops from Manhattan Viral. Streetwear apparel, digital tools, and limited bundles.</description>
+    <language>en-us</language>
+    <atom:link href="https://www.manhattanviral.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>GENESIS Hoodie — $129</title>
+      <link>https://www.manhattanviral.com/product/genesis-hoodie</link>
+      <description>Black heavyweight zip-up hoodie. Gold embossed logo. Limited to 100 units.</description>
+      <category>hoodies</category>
+      <guid isPermaLink="true">https://www.manhattanviral.com/product/genesis-hoodie</guid>
+      <pubDate>Sat, 20 Jun 2026 05:02:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Protocol Tee — $59</title>
+      <link>https://www.manhattanviral.com/product/protocol-tee</link>
+      <description>Cream oversized tee. Screen-printed protocol diagram. Limited run.</description>
+      <category>tees</category>
+      <guid isPermaLink="true">https://www.manhattanviral.com/product/protocol-tee</guid>
+      <pubDate>Sat, 20 Jun 2026 05:02:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>MCP Cap — $39</title>
+      <link>https://www.manhattanviral.com/product/mcp-cap</link>
+      <description>Black unstructured dad hat. Embroidered MCP logo. Adjustable strap.</description>
+      <category>accessories</category>
+      <guid isPermaLink="true">https://www.manhattanviral.com/product/mcp-cap</guid>
+      <pubDate>Sat, 20 Jun 2026 05:02:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Truth Over Hype Tote — $29</title>
+      <link>https://www.manhattanviral.com/product/truth-tote</link>
+      <description>Natural canvas tote. Screen-printed manifesto. Daily carry.</description>
+      <category>accessories</category>
+      <guid isPermaLink="true">https://www.manhattanviral.com/product/truth-tote</guid>
+      <pubDate>Sat, 20 Jun 2026 05:02:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Genesis Collection — $249</title>
+      <link>https://www.manhattanviral.com/product/genesis-collection</link>
+      <description>Hoodie + Tee + Cap + Automation Toolkit. Limited to 50 bundles.</description>
+      <category>bundles</category>
+      <guid isPermaLink="true">https://www.manhattanviral.com/product/genesis-collection</guid>
+      <pubDate>Sat, 20 Jun 2026 05:02:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Automation Toolkit — $49</title>
+      <link>https://www.manhattanviral.com/product/automation-toolkit</link>
+      <description>A practical set of scripts and workflows for automating repetitive founder tasks.</description>
+      <category>digital</category>
+      <guid isPermaLink="true">https://www.manhattanviral.com/product/automation-toolkit</guid>
+      <pubDate>Sat, 20 Jun 2026 05:02:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>MCP Server Starter — $79</title>
+      <link>https://www.manhattanviral.com/product/mcp-server-starter</link>
+      <description>A starter kit for shipping a production-ready MCP server with sane defaults.</description>
+      <category>digital</category>
+      <guid isPermaLink="true">https://www.manhattanviral.com/product/mcp-server-starter</guid>
+      <pubDate>Sat, 20 Jun 2026 05:02:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Master Build Tee — $65</title>
+      <link>https://www.manhattanviral.com/product/master-build-tee</link>
+      <description>Black heavyweight tee. Puff print Frank signature. Limited drop.</description>
+      <category>tees</category>
+      <guid isPermaLink="true">https://www.manhattanviral.com/product/master-build-tee</guid>
+      <pubDate>Sat, 20 Jun 2026 05:02:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Social Automation Engine — $99</title>
+      <link>https://www.manhattanviral.com/product/social-automation-engine</link>
+      <description>A content scheduling and publishing system for high-frequency social operations.</description>
+      <category>digital</category>
+      <guid isPermaLink="true">https://www.manhattanviral.com/product/social-automation-engine</guid>
+      <pubDate>Sat, 20 Jun 2026 05:02:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Crypto Signal Pack — $59</title>
+      <link>https://www.manhattanviral.com/product/crypto-signal-pack</link>
+      <description>A lightweight package for organizing crypto watchlists, alerts, and decision flow.</description>
+      <category>digital</category>
+      <guid isPermaLink="true">https://www.manhattanviral.com/product/crypto-signal-pack</guid>
+      <pubDate>Sat, 20 Jun 2026 05:02:43 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

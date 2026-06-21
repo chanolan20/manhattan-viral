@@ -1,0 +1,137 @@
+{
+  "site_name": "Manhattan Viral",
+  "tagline": "Streetwear by Frank + Jules. Limited drops. Zero hype.",
+  "description": "Premium streetwear apparel and digital tools, automated by AI agents. Limited drops, physical fulfillment, and autonomous code deployment.",
+  "keywords": [
+    "streetwear",
+    "limited drops",
+    "AI agents",
+    "Frank",
+    "Jules",
+    "premium apparel",
+    "automation tools"
+  ],
+  "products": [
+    {
+      "slug": "genesis-hoodie",
+      "title": "GENESIS Hoodie — Manhattan Viral",
+      "description": "Black heavyweight zip-up hoodie. Gold embossed logo. Limited to 100 units.",
+      "keywords": [
+        "hoodies",
+        "physical",
+        "manhattan viral",
+        "limited drop"
+      ]
+    },
+    {
+      "slug": "protocol-tee",
+      "title": "Protocol Tee — Manhattan Viral",
+      "description": "Cream oversized tee. Screen-printed protocol diagram. Limited run.",
+      "keywords": [
+        "tees",
+        "physical",
+        "manhattan viral",
+        "limited drop"
+      ]
+    },
+    {
+      "slug": "mcp-cap",
+      "title": "MCP Cap — Manhattan Viral",
+      "description": "Black unstructured dad hat. Embroidered MCP logo. Adjustable strap.",
+      "keywords": [
+        "accessories",
+        "physical",
+        "manhattan viral",
+        "limited drop"
+      ]
+    },
+    {
+      "slug": "truth-tote",
+      "title": "Truth Over Hype Tote — Manhattan Viral",
+      "description": "Natural canvas tote. Screen-printed manifesto. Daily carry.",
+      "keywords": [
+        "accessories",
+        "physical",
+        "manhattan viral",
+        "limited drop"
+      ]
+    },
+    {
+      "slug": "genesis-collection",
+      "title": "Genesis Collection — Manhattan Viral",
+      "description": "Hoodie + Tee + Cap + Automation Toolkit. Limited to 50 bundles.",
+      "keywords": [
+        "bundles",
+        "physical",
+        "manhattan viral",
+        "limited drop"
+      ]
+    },
+    {
+      "slug": "automation-toolkit",
+      "title": "Automation Toolkit — Manhattan Viral",
+      "description": "A practical set of scripts and workflows for automating repetitive founder tasks.",
+      "keywords": [
+        "digital",
+        "digital",
+        "manhattan viral",
+        "limited drop"
+      ]
+    },
+    {
+      "slug": "mcp-server-starter",
+      "title": "MCP Server Starter — Manhattan Viral",
+      "description": "A starter kit for shipping a production-ready MCP server with sane defaults.",
+      "keywords": [
+        "digital",
+        "digital",
+        "manhattan viral",
+        "limited drop"
+      ]
+    },
+    {
+      "slug": "master-build-tee",
+      "title": "Master Build Tee — Manhattan Viral",
+      "description": "Black heavyweight tee. Puff print Frank signature. Limited drop.",
+      "keywords": [
+        "tees",
+        "physical",
+        "manhattan viral",
+        "limited drop"
+      ]
+    },
+    {
+      "slug": "social-automation-engine",
+      "title": "Social Automation Engine — Manhattan Viral",
+      "description": "A content scheduling and publishing system for high-frequency social operations.",
+      "keywords": [
+        "digital",
+        "digital",
+        "manhattan viral",
+        "limited drop"
+      ]
+    },
+    {
+      "slug": "crypto-signal-pack",
+      "title": "Crypto Signal Pack — Manhattan Viral",
+      "description": "A lightweight package for organizing crypto watchlists, alerts, and decision flow.",
+      "keywords": [
+        "digital",
+        "digital",
+        "manhattan viral",
+        "limited drop"
+      ]
+    },
+    {
+      "slug": "lead-gen-flow",
+      "title": "Lead Gen Flow — Manhattan Viral",
+      "description": "A repeatable outbound system for capturing and qualifying new leads.",
+      "keywords": [
+        "digital",
+        "digital",
+        "manhattan viral",
+        "limited drop"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "manhattanviral-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "ai:demo": "node --env-file=.env.local index.mjs"
+  },
+  "dependencies": {
+    "ai": "^6.0.0"
+  }
+}

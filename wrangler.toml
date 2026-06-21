@@ -1,0 +1,8 @@
+name = "manhattan-viral"
+compatibility_date = "2024-09-25"
+
+[vars]
+FRANK_BACKEND_URL = "https://frank.manhattanviral.com"
+
+[[pages.deployments]]
+# Cloudflare Pages — static output dir

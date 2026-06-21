@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/product/:slug", "destination": "/index.html" },
+    { "source": "/press", "destination": "/press.html" },
+    { "source": "/rss.xml", "destination": "/rss.xml" },
+    { "source": "/", "destination": "/index.html" }
+  ]
+}
