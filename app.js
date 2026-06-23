@@ -192,7 +192,7 @@ function startCountdown(targetDate, key) {
   setInterval(tick, 1000);
 }
 
-function addToCalendar(dropDate, title) {
+window.addToCalendar = function addToCalendar(dropDate, title) {
   const d = new Date(dropDate);
   const end = new Date(d.getTime() + 3600000);
   const f = dt => dt.toISOString().replace(/[-:]/g, "").split(".")[0] + "Z";
@@ -389,7 +389,7 @@ function buildFilters(active, onChange) {
 }
 
 /* ─── Marquee duplicate ─── */
-function initMarquee() {
+window.initMarquee = function initMarquee() {
   const track = document.querySelector("#marqueeTrack");
   if (!track) return;
   // Already duplicated in HTML — no-op to avoid triple
