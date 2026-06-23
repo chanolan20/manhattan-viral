@@ -6,6 +6,10 @@
     "ai:demo": "node --env-file=.env.local index.mjs"
   },
   "dependencies": {
-    "ai": "^6.0.0"
+    "@eslint/js": "^10.0.1",
+    "ai": "^6.0.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.3",
+    "globals": "^17.7.0"
   }
 }

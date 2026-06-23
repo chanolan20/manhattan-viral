@@ -192,6 +192,7 @@ function startCountdown(targetDate, key) {
   setInterval(tick, 1000);
 }
 
+window.addToCalendar = addToCalendar;
 function addToCalendar(dropDate, title) {
   const d = new Date(dropDate);
   const end = new Date(d.getTime() + 3600000);
@@ -389,6 +390,7 @@ function buildFilters(active, onChange) {
 }
 
 /* ─── Marquee duplicate ─── */
+window.initMarquee = initMarquee;
 function initMarquee() {
   const track = document.querySelector("#marqueeTrack");
   if (!track) return;

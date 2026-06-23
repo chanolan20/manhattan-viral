@@ -42,7 +42,7 @@ export async function onRequest(context) {
     });
     const data = await res.json();
     return new Response(JSON.stringify(data), { status: res.ok ? 200 : 502, headers: CORS });
-  } catch (e) {
+  } catch (_e) {
     return new Response(JSON.stringify({ ok: false, error: "Frank unreachable", reply: "Hey! Our AI is warming up. Hit us at info@manhattanviral.com in the meantime." }), { status: 503, headers: CORS });
   }
 }
