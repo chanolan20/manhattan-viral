@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 160" width="300" height="160">
+  <title>Manhattan Viral — Stacked Logo</title>
+  <desc>Stacked lockup for square contexts: social avatars, app icons, profile photos.</desc>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;display=swap');
+    .mv-wordmark { font-family: "Bebas Neue", Impact, "Arial Narrow", sans-serif; font-size: 46px; letter-spacing: 0.04em; }
+  </style>
+  <!-- MV Symbol -->
+  <g fill="none" stroke="#d4a844" stroke-width="6" stroke-linecap="square" stroke-linejoin="miter">
+    <polyline points="102,58 115,12 135,38 155,12 168,58" />
+    <polyline points="172,12 192,58 212,12" />
+  </g>
+  <!-- Wordmark -->
+  <text x="150" y="94" text-anchor="middle" class="mv-wordmark" fill="#ffffff">MANHATTAN</text>
+  <text x="150" y="130" text-anchor="middle" class="mv-wordmark" fill="#d4a844">VIRAL</text>
+</svg>

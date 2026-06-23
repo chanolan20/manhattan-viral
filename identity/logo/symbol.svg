@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" width="60" height="60">
+  <title>Manhattan Viral — Symbol</title>
+  <desc>Standalone MV symbol for app icons, favicons, and social avatars.</desc>
+  <rect width="60" height="60" rx="8" fill="#0a0a0a"/>
+  <g fill="none" stroke="#d4a844" stroke-width="6" stroke-linecap="square" stroke-linejoin="miter">
+    <!-- Letter M -->
+    <polyline points="8,48 14,14 21,32 28,14 34,48" />
+    <!-- Letter V -->
+    <polyline points="36,14 46,48 56,14" />
+  </g>
+</svg>

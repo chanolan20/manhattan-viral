@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 50" width="540" height="50">
+  <title>Manhattan Viral — Primary Logo</title>
+  <desc>Primary horizontal lockup: MV symbol + wordmark.</desc>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;display=swap');
+    .mv-wordmark { font-family: "Bebas Neue", Impact, "Arial Narrow", sans-serif; font-size: 48px; letter-spacing: 0.04em; }
+  </style>
+  <!-- MV Symbol -->
+  <g fill="none" stroke="#d4a844" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter">
+    <polyline points="4,42 11,8 21,26 31,8 38,42" />
+    <polyline points="40,8 51,42 62,8" />
+  </g>
+  <!-- Wordmark -->
+  <text x="76" y="40" class="mv-wordmark" fill="#ffffff">MANHATTAN</text>
+  <text x="400" y="40" class="mv-wordmark" fill="#d4a844">VIRAL</text>
+</svg>

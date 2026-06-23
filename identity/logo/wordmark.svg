@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 50" width="480" height="50">
+  <title>Manhattan Viral — Wordmark</title>
+  <desc>Horizontal wordmark for Manhattan Viral. Render with Bebas Neue or outline for production.</desc>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;display=swap');
+    .mv-wordmark { font-family: "Bebas Neue", Impact, "Arial Narrow", sans-serif; font-size: 48px; letter-spacing: 0.04em; }
+  </style>
+  <text x="0" y="40" class="mv-wordmark" fill="#ffffff">MANHATTAN</text>
+  <text x="330" y="40" class="mv-wordmark" fill="#d4a844">VIRAL</text>
+</svg>

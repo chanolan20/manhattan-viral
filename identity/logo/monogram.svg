@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 60" width="120" height="60">
+  <title>Manhattan Viral — MV Monogram</title>
+  <desc>Bold geometric MV monogram for Manhattan Viral streetwear.</desc>
+  <g fill="none" stroke="#d4a844" stroke-width="10" stroke-linecap="square" stroke-linejoin="miter">
+    <!-- Letter M -->
+    <polyline points="10,52 24,8 42,36 60,8 74,52" />
+    <!-- Letter V -->
+    <polyline points="76,8 96,52 116,8" />
+  </g>
+</svg>
