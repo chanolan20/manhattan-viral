@@ -199,6 +199,7 @@ function addToCalendar(dropDate, title) {
   const url = `https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(title)}&dates=${f(d)}/${f(end)}&details=${encodeURIComponent("Limited drop on Manhattan Viral")}`;
   window.open(url, "_blank");
 }
+window.addToCalendar = addToCalendar;
 
 /* ─── Helpers ─── */
 const APPAREL_CATS = new Set(["hoodies", "tees", "tops", "outerwear", "accessories", "bundles"]);
@@ -394,6 +395,7 @@ function initMarquee() {
   if (!track) return;
   // Already duplicated in HTML — no-op to avoid triple
 }
+window.initMarquee = initMarquee;
 
 /* ─── Product card tilt (delegated) ─── */
 let tiltCard = null;
