@@ -651,3 +651,5 @@ main().catch(err => {
   const g = document.getElementById("catalogGrid");
   if (g) g.innerHTML = '<p style="color:var(--muted);padding:2rem 0">Catalog unavailable.</p>';
 });
+window.addToCalendar = addToCalendar;
+window.initMarquee = initMarquee;
