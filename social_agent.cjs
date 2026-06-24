@@ -63,7 +63,7 @@ function main() {
   const products = catalog.products || [];
   const posts = generatePosts(products);
 
-  const outPath = path.join(__dirname, "..", "memory", "social", "generated_posts.json");
+  const outPath = path.join(__dirname, "memory", "social", "generated_posts.json");
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
   fs.writeFileSync(outPath, JSON.stringify(posts, null, 2));
   console.log(`Social agent: ${posts.length} posts generated -> ${outPath}`);
