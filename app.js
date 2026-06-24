@@ -200,6 +200,8 @@ function addToCalendar(dropDate, title) {
   window.open(url, "_blank");
 }
 
+window.addToCalendar = addToCalendar;
+
 /* ─── Helpers ─── */
 const APPAREL_CATS = new Set(["hoodies", "tees", "tops", "outerwear", "accessories", "bundles"]);
 
@@ -394,6 +396,7 @@ function initMarquee() {
   if (!track) return;
   // Already duplicated in HTML — no-op to avoid triple
 }
+window.initMarquee = initMarquee;
 
 /* ─── Product card tilt (delegated) ─── */
 let tiltCard = null;
