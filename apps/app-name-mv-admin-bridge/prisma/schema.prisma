@@ -1,0 +1,91 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+// Note that some adapters may set a maximum length for the String type by default, please ensure your strings are long
+// enough when changing adapters.
+// See https://www.prisma.io/docs/orm/reference/prisma-schema-reference#string for more information
+datasource db {
+  provider = "sqlite"
+  url      = "file:dev.sqlite"
+}
+
+model Session {
+  id            String    @id
+  shop          String
+  state         String
+  isOnline      Boolean   @default(false)
+  scope         String?
+  expires       DateTime?
+  accessToken   String
+  userId        BigInt?
+  firstName     String?
+  lastName      String?
+  email         String?
+  accountOwner  Boolean   @default(false)
+  locale        String?
+  collaborator  Boolean?  @default(false)
+  emailVerified Boolean?  @default(false)
+  refreshToken        String?
+  refreshTokenExpires DateTime?
+}
+
+model AIAgent {
+  id            String    @id @default(cuid())
+  name          String    @unique // "frank" | "hermes"
+  displayName   String
+  avatar        String
+  color         String
+  accessToken   String    @unique
+  scopes        String    // comma-separated list
+  shop          String?   // Shopify myshopify.com domain, used to look up session access token
+  isActive      Boolean   @default(true)
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  lastUsedAt    DateTime?
+  
+  // Relations
+  accessLogs    AgentAccessLog[]
+  webhookEvents WebhookEvent[]
+}
+
+model AgentAccessLog {
+  id          String    @id @default(cuid())
+  agentId     String
+  agent       AIAgent   @relation(fields: [agentId], references: [id], onDelete: Cascade)
+  action      String    // "grant", "revoke", "query", "mutate"
+  resource    String    // e.g., "product/123", "order/456"
+  query       String?   // GraphQL query/mutation
+  variables   String?   // JSON variables
+  success     Boolean   @default(true)
+  error       String?
+  durationMs  Int?
+  createdAt   DateTime  @default(now())
+}
+
+model WebhookEvent {
+  id          String    @id @default(cuid())
+  agentId     String?
+  agent       AIAgent?  @relation(fields: [agentId], references: [id], onDelete: SetNull)
+  topic       String    // e.g., "orders/create", "products/update"
+  payload     String    // JSON payload
+  processed   Boolean   @default(false)
+  processedAt DateTime?
+  error       String?
+  createdAt   DateTime  @default(now())
+}
+
+model StoreSetup {
+  id          String    @id @default(cuid())
+  name        String    @unique
+  status      String    @default("pending") // "pending", "in_progress", "completed", "failed"
+  config      String    // JSON config
+  result      String?   // JSON result
+  error       String?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  completedAt DateTime?
+}

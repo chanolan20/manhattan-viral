@@ -1,0 +1,42 @@
+client_id = "535c8d321b70090c32512109199c9585"
+name = "MV Admin Bridge"
+application_url = "https://example.com"
+embedded = true
+
+[access_scopes]
+scopes = "write_products,write_customers,write_fulfillments,write_inventory,write_locations,write_markets,write_themes,write_content,write_merchant_managed_fulfillment_orders,write_third_party_fulfillment_orders,write_assigned_fulfillment_orders,write_translations,read_products,read_metaobjects,read_metaobject_definitions,read_orders,read_customers,read_discounts,read_draft_orders,read_fulfillments,read_inventory,read_locations,read_markets,read_price_rules,read_shipping,read_themes,read_content,read_gift_cards,read_merchant_managed_fulfillment_orders,read_third_party_fulfillment_orders,read_checkouts,read_assigned_fulfillment_orders,read_shopify_payments,read_locales,read_translations,read_analytics,read_returns"
+
+[webhooks]
+api_version = "2026-07"
+
+  [[webhooks.subscriptions]]
+  uri = "/webhooks/app/uninstalled"
+  topics = [ "app/uninstalled" ]
+
+  [[webhooks.subscriptions]]
+  uri = "/webhooks/app/scopes_update"
+  topics = [ "app/scopes_update" ]
+
+  [[webhooks.subscriptions]]
+  uri = "/webhooks/agent"
+  topics = [
+    "products/create", "products/update", "products/delete",
+    "collections/create", "collections/update", "collections/delete",
+    "orders/create", "orders/update", "orders/paid", "orders/fulfilled", "orders/cancelled", "orders/delete",
+    "order_transactions/create",
+    "fulfillments/create", "fulfillments/update",
+    "customers/create", "customers/update", "customers/delete",
+    "inventory_levels/update",
+    "discounts/create", "discounts/update", "discounts/delete",
+    "pages/create", "pages/update", "pages/delete",
+    "blogs/create", "blogs/update", "blogs/delete",
+    "articles/create", "articles/update", "articles/delete",
+    "shop/update"
+  ]
+
+[auth]
+redirect_urls = [ "https://example.com/api/auth" ]
+
+[build]
+include_config_on_deploy = true
+automatically_update_urls_on_dev = true
